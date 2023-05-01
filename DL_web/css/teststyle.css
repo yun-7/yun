@@ -169,12 +169,12 @@ input[type=submit] {
 
     .col .fb,
     .col .google {
-        width: 450px;
+        width: 80%;
     }
 
     .col input,
     .btn {
-        width: 450px;
+        width: 80%;
     }
 }
 
