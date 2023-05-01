@@ -55,3 +55,73 @@ header img {
 .subwords {
     text-decoration: none;
 }
+
+.login {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    border-radius: 10px;
+    padding: 20px 10px 30px 10px;
+}
+
+
+.row {
+    padding: 20px;
+}
+
+.col input,
+.btn {
+    background-color: #f2f2f2;
+    position: inherit;
+    width: 40%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+    opacity: 1;
+}
+
+.col {
+    text-align: center;
+}
+
+.col .fb {
+    background-color: #3B5998;
+    color: white;
+    width: 60%;
+}
+
+
+.col .google {
+    background-color: #dd4b39;
+    color: white;
+    width: 60%;
+}
+
+input[type=submit] {
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+}
+
+.col a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #535353;
+    font-size: 12px;
+}
