@@ -12,6 +12,16 @@ header {
     position: relative;
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        height: 60px;
+    }
+
+    header img {
+        height: 40px;
+    }
+}
+
 footer {
     margin-top: auto;
     height: 70px;
@@ -133,6 +143,22 @@ input[type=submit] {
     margin-right: 10px;
     color: #535353;
     font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        margin-top: 60px;
+    }
+
+    .col .fb,
+    .col .google {
+        width: 450px;
+    }
+
+    .col input,
+    .btn {
+        width: 450px;
+    }
 }
 
 .title {
