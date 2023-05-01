@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(190, 226, 240);
+    height: 80px;
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    position: absolute;
+    height: 60px;
+    top: 10px;
+}
+
+.lefticon {
+    position: absolute;
+    top: 29px;
+    left: 25px;
+}
+
+.righticon {
+    position: absolute;
+    top: 29px;
+    right: 25px;
+}
+
+.offcanvas a {
+    display: block;
+    text-decoration: none;
+    margin: 0px 0px 2px 0px;
+    padding: 4px 4px 4px 20px;
+    background-color: rgb(137, 140, 140);
+    color: aliceblue;
+}
+
+.headwords,
+.subwords {
+    text-decoration: none;
+}

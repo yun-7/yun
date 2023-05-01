@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left bottom,
+            lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    /* view height 螢幕可是高度百分比，會隨著網頁變化而改變。 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, .4);
+    border-radius: 15px;
+    width: 85%;
+    text-align: center;
+    color: darkgreen;
+}
+
+.heading {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler,
+        'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
+    letter-spacing: 2px;
+    /* 文字間距 */
+}
+
+.joke {
+    font-size: 25px;
+    margin: 40px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    /* 讓鼠標變化 */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .6);
+    text-transform: uppercase;
+    /* 讓英文字母都大寫 */
+    width: 300px;
+    color: darkgreen;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .4);
+    transition: all 300ms ease;
+}
