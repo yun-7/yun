@@ -14,12 +14,29 @@ header {
 
 @media screen and (max-width: 768px) {
     header {
+        background-color: rgb(190, 226, 240);
         height: 60px;
+        position: relative;
     }
 
-    header img {
+    header .center img {
+        position: absolute;
         height: 40px;
+        top: 10px;
     }
+
+    header .lefticon {
+        position: absolute;
+        top: 18px;
+        left: 25px;
+    }
+
+    header .righticon {
+        position: absolute;
+        top: 18px;
+        right: 25px;
+    }
+
 }
 
 footer {
@@ -147,7 +164,7 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
     .login {
-        margin-top: 60px;
+        margin: 0px;
     }
 
     .col .fb,
