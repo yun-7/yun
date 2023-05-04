@@ -78,13 +78,6 @@ header img {
 }
 
 /* navbar */
-.floatcenter {
-    position: relative;
-    float: left;
-    /* justify-content: center; */
-    /* text-align: center; */
-}
-
 nav {
     position: relative;
 
@@ -127,6 +120,12 @@ nav a {
 .dropdown-content a {
     float: none;
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
 }
 
 .offcanvas a {
