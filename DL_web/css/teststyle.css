@@ -77,6 +77,58 @@ header img {
     color: black;
 }
 
+/* navbar */
+.floatcenter {
+    position: relative;
+    float: left;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+nav {
+    position: relative;
+
+}
+
+nav a {
+    float: left;
+    text-decoration: none;
+    width: 160px;
+    text-align: center;
+    color: black;
+}
+
+.dropdown {
+    float: left;
+    text-align: center;
+
+}
+
+.dropdown button {
+    border: none;
+    width: 160px;
+    background: none;
+}
+
+.dropbtn {
+    text-align: center;
+}
+
+.dropdown .dropdown-content {
+    /* display: none; */
+
+}
+
+.dropdown .dropdown-content a {
+    min-width: 160px;
+    background-color: antiquewhite;
+}
+
+.dropdown-content a {
+    float: none;
+    display: block;
+}
+
 .offcanvas a {
     display: block;
     text-decoration: none;
