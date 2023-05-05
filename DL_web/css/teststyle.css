@@ -89,6 +89,13 @@ nav a {
     width: 160px;
     text-align: center;
     color: black;
+    padding: 5px;
+}
+
+nav a:hover {
+    border: none;
+    border-bottom: 3px solid rgb(6, 6, 95);
+    color: black;
 }
 
 .dropdown {
@@ -101,6 +108,13 @@ nav a {
     border: none;
     width: 160px;
     background: none;
+    padding: 5px;
+}
+
+.dropdown button:hover {
+    border: none;
+    border-bottom: 3px solid rgb(6, 6, 95);
+    color: black;
 }
 
 .dropbtn {
@@ -108,18 +122,27 @@ nav a {
 }
 
 .dropdown .dropdown-content {
-    /* display: none; */
-
-}
-
-.dropdown .dropdown-content a {
+    display: none;
+    position: absolute;
     min-width: 160px;
-    background-color: antiquewhite;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 .dropdown-content a {
     float: none;
     display: block;
+    padding: 8px;
+}
+
+.dropdown-content a:hover {
+    background-color: #c4d9eb9f;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
