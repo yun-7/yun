@@ -447,3 +447,48 @@ ul.breadcrumb li a:hover {
     font-size: 24px;
 
 }
+
+.details hr {
+    margin: 0;
+
+}
+
+.select {
+    font-size: 14px;
+}
+
+select {
+    width: 80%;
+    height: 30px;
+    padding: 2px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.contect,
+.info {
+    padding: 10px;
+}
+
+.contect .size,
+.contect .color {
+    margin-bottom: 20px;
+}
+
+.contect .size label,
+.contect .color label {
+    margin: 10px;
+}
+
+.productimg {
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    background-color: rgba(143, 143, 143, 0.1);
+}
+
+.productimg img {
+    width: 100%;
+    padding: 10px;
+}
