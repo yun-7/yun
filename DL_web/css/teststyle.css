@@ -404,8 +404,13 @@ ul.breadcrumb li a:hover {
 
 .next {
     position: absolute;
-    right: 0;
+    right: 70px;
     border-radius: 3px 0 0 3px;
+}
+
+.next:hover,
+.prev:hover {
+    color: rgb(219, 220, 222);
 }
 
 .row:after {
